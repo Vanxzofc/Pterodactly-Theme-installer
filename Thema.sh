@@ -13,17 +13,17 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER PANEL             [+]${NC}"
-  echo -e "${BLUE}[+]                  © VanzxOfc                  [+]${NC}"
+  echo -e "${BLUE}[+]                  © VanzXOffc                  [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] ===============================================  [+]${NC}"
   echo -e ""
-  echo -e "Script Ini Di Gunakan Untuk Menginstal Thema Pterodactyl,"
+  echo -e "Script Ini Di Buat Untuk Mempermudah Penginstalasian Thema Pterodactyle,"
   echo -e "Dilarang Keras Share Bebas."
   echo -e ""
   echo -e "Tiktok :"
-  echo -e "@Vanz"
+  echo -e "@Vanzx"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@VanzxOff"
+  echo -e "@VanzXOffc"
   sleep 4
   clear
 }
@@ -56,20 +56,20 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY VANZX OFC              [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY VANZ HOSTING              [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "vanzmodehosting" ]; then
+  if [ "$USER_TOKEN" = "vanzmodehost" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Token Salah! Beli Kode Token Di Rizz Hosting${NC}"
-    echo -e "${YELLOW}TELEGRAM : @VanzXOfc${NC}"
+    echo -e "${YELLOW}TELEGRAM : @VanzXOffc${NC}"
     echo -e "${YELLOW}WHATSAPP : +6288287817668{NC}"
     echo -e "${YELLOW}HARGA TOKEN : 15K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© VanzXOfc${NC}"
+    echo -e "${YELLOW}© VanzHosting${NC}"
     exit 1
   fi
   clear
@@ -84,12 +84,12 @@ install_theme() {
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
     echo -e "PILIH THEME YANG INGIN DI INSTALL"
-    echo "1. STELLAR"
-    echo "2. BILLING"
-    echo "3. ENIGMA"
-    echo "4. NOOK"
-    echo "x. KEMBALI"
-    echo -e "Masukan Pilihan (1/2/3/x) :"
+    echo "1. Stellar"
+    echo "2. Billing"
+    echo "3. Enigma"
+    echo "4. Nook"
+    echo "x. kembali"
+    echo -e "masukan pilihan (1/2/3/x) :"
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
@@ -277,11 +277,11 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/Stellar.zip https://github.com/Vanxzofc/Pterodactly-Theme-installer/raw/main/Stellar.zip
+wget -O /root/stellar.zip https://github.com/SkyzoOffc/Pterodactyl-Theme-Autoinstaller/raw/main/stellar.zip
 
 
 # Ekstrak file tema
-unzip /root/Stellar.zip -d /root/pterodactyl
+unzip /root/stellar.zip -d /root/pterodactyl
 
 # Salin tema ke direktori Pterodactyl
 sudo cp -rfT /root/pterodactyl /var/www/pterodactyl
