@@ -93,7 +93,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/Vanxzofc/Pterodactly-Theme-installer/raw/main/Stellar.zip")        
+        THEME_URL=$(echo -e "https://github.com/Vanxzofc/Pterodactly-Theme-installer/raw/main/stellar.zip")        
         break
         ;;
       2)
