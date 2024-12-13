@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER PANEL             [+]${NC}"
-  echo -e "${BLUE}[+]                  ©VanzxOfc                  [+]${NC}"
+  echo -e "${BLUE}[+]                      ©VanzxOfc                  [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] ===============================================  [+]${NC}"
   echo -e ""
